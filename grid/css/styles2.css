@@ -1,0 +1,162 @@
+/* styles for grid */ 
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/grid.png);
+    background-repeat: repeat-y;
+    background-position: 50% 0;
+}
+
+#wrapper {
+    width: 940px;
+    margin: 30px auto;
+    background: rgba(28, 208, 175, 0.8);
+    padding: 20px 0;
+    overflow: hidden; 
+}
+
+.row {
+    margin-bottom: 30px;
+    clear: both;
+    overflow: hidden;
+}
+
+.row h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col {
+    width: 148px;
+    height: 80px;
+    background: beige;
+    float: left;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.col p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8em;
+    padding-top: .5em;
+}
+
+.col img {
+    width: 40px;
+    height: auto;
+}
+
+.col:first-of-type {
+    margin-left: 60px;
+}
+
+.col:last-of-type {
+    margin-right: 0;
+}
+
+.col1 {
+    width: 40px;
+    background: white;
+    float: left;
+}
+
+main {
+    width: 580px;
+    background: red;
+    float: left;
+}
+
+aside {
+    width: 340px;
+    background: green;
+    float: right;
+}
+
+
+
+
+
+
+
+/* COMMENT OUT 
+
+
+.col1 {
+    width: 40px;
+}
+
+.col2 {
+    width: 100px;
+}
+
+.col3 {
+    width: 160px;
+}
+
+.col4 {
+    width: 220px;
+}
+
+.col5 {
+    width: 280px;
+}
+
+.col6 {
+    width: 340px;
+}
+
+.col7 {
+    width: 400px;
+}
+
+.col8 {
+    width: 460px;
+}
+
+.col9 {
+    width: 520px;
+}
+
+.col10 {
+    width: 580px;
+}
+
+.col11 {
+    width: 640px;
+}
+
+.col12 {
+    width: 700px;
+}
+
+.col13 {
+    width: 760px;
+}
+
+.col14 {
+    width: 820px;
+}
+
+.col15 {
+    width: 880px;
+}
+
+.col16 {
+    width: 940px;
+}
+
+*/ 

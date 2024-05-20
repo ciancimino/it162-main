@@ -1,0 +1,208 @@
+/* styles for grid in this order: */ 
+/* general */
+/* typography */
+/* nav */
+/* footer */
+/* index page */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/grid.png);
+    background-repeat: repeat-y;
+    background-position: 50% 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9em;
+}
+
+/* typography */
+
+h1 {
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 1.7em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* nav */
+nav {
+    background-color: #c8d6de;
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+  }
+  
+.sidenav ul {
+    list-style-type: none;
+    background-color: #e00a0a;
+    width: 100%
+}
+
+li .dropdown {
+    background-color: #17bd35;
+    display: none;
+    width: 100px;
+    float: right;
+}
+
+li:hover .dropdown {
+   display: block;
+}
+
+.sidenav img {
+    display: block;
+    margin: 115px auto 20px; 
+    max-width: 100%; 
+    height: auto; 
+}
+  
+/* footer */
+
+footer {
+    height: 60px;
+    line-height: 60px;
+    background-color: pink;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: .875em;
+}
+
+footer li {
+    margin: 0 10px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+/* index page */
+
+header h1 {
+    margin-top: 64px;
+    margin-bottom: 0;
+}
+
+header {
+    width: 940px;
+    margin: auto;
+    background: rgba(200, 225, 213, 0.8);
+    text-align: center;
+}
+
+#wrapper {
+    width: 980px;
+    margin: auto;
+    background: rgba(225, 200, 200, .8);
+    padding: 20px 0;
+}
+
+.row {
+    overflow: hidden;
+    text-align: center;
+}
+
+.third {
+    width: 300px;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+    background-color: gray;
+}
+
+.third a {
+    color: #c8d6de;
+}
+
+.third a:hover {
+    color: #17bd35;
+}
+
+.third:last-of-type {
+    margin-right: 0;
+}
+
+.third img {
+    width: 100%;
+    height: auto;
+}
+
+.third h2, p {
+    padding: 0 10px;
+    margin-bottom: .3em;
+}
+
+.readmore {
+    display: block;
+    margin-top: .3em;
+    margin-bottom: .7em;
+}
+
+/* about page */
+
+main {
+    float: left;
+    width: 580px;
+    margin-left: 20px;
+    background-color: #17bd35;
+}
+
+aside {
+    float: right;
+    width: 340px;
+    margin-right: 20px;
+}
+
+aside h3 {
+    padding-bottom: 6px;
+    text-align: left;
+    padding-left: 0;
+}
+
+aside p {
+    padding-bottom: 20px;
+    text-align: left;
+    padding-left: 0;
+    margin: 0;
+}
+
+.award img {
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+}
+
+.award-row {
+    overflow: hidden;
+}
+
+.award {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.award:last-of-type {
+    margin-right: 0px;
+}

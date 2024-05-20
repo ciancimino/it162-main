@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F4F4F4;
+    color: #232C33;
+    font-size: 100%;
+    font-family: monospace;
+    line-height: 1.5;
+}
+
+h2 {
+    padding: 1.5em;
+    color: #69696C;
+}
+
+h3 {
+    padding: 1em;
+    color: #69696C;
+}
+
+p {
+    padding-bottom: 1em;
+}
+
+aside ol {
+    list-style-type: disc;
+    padding-left: 2em;
+}
+
+aside li a {
+    color: #5A7D7C;
+}
+
+aside li a:hover {
+    color: #F4F4F4;
+    background-color: #5A7D7C;
+}
+
+#wrapper h2 {
+    text-align: center;
+}
+
+
+/* header */
+
+.inner-header {
+     overflow: hidden;
+}
+
+#logo,
+a #logo img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+/* nav */
+
+nav {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#primary {
+    width: 940px;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+#primary > li {
+    float: none;
+    width: 25%;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    background-color: #B9BABF;
+}
+
+#primary a {
+    color:#232C33;
+    text-decoration: none;
+    display: block;
+}
+
+#primary a:hover {
+    background-color: #5A7D7C;
+    color: #F4F4F4;
+}
+
+.dropdown {
+    display: none;
+}
+
+#primary li:hover .dropdown {
+    display: block;
+    position: absolute;
+    background-color: #B9BABF;
+    width: 100%;
+    list-style-type: none
+}
+
+/* wrapper / main / aside */
+
+#wrapper {
+    width: 750px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+main {
+    float: left;
+    width: 60%;
+    text-align: justify;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    text-align: justify;
+}
+
+#right {
+    height: 200px;
+    float: right;
+    padding-left: 20px;
+}
+
+figure {
+    position: relative;
+    float: left;
+}
+
+figcaption {
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    width: 150px;
+    font-size: .5em;
+    color: #5A7D7C;
+}
+
+#left {
+    height: 200px;
+    float: left;
+    padding-right: 20px;
+}
+
+/* footer */
+
+footer {
+    height: 60px;
+    line-height: 60px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: .875em;
+}
+
+footer li {
+    margin: 0 10px;
+}
+
+footer a {
+    text-decoration: none;
+}

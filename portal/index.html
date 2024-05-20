@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Alexandra's Portal page</title>
+</head>
+<body>
+
+    <header>
+        <div class="inner-header">
+            <a href="index.html"><img id="logo" src="images/logo.png" alt="logo"></a>
+        </div>
+        <!-- end inner-header -->
+    </header>
+
+    <nav>
+        <ul id="primary">
+            <li><a href="">Home</a></li>
+            <li><a href="">Projects</a>
+            <ul class="dropdown">
+                <li><a href="https://sculptwebstudio.com/it261/index.php">it261 Portal Page</a></li>
+                <li><a href="https://thermofaxrepairs.com/">Client: Thermofax Repair</a></li>
+            </ul>
+            </li>
+            <li><a href="">Profiles</a>
+            <ul class="dropdown">
+                <li><a href="https://github.com/ciancimino">Github</a></li>
+                <li><a href="https://linkedin.com/in/ciancimno">Linkedin</a></li>
+            </ul>
+            </li>
+        </ul>
+    </nav>
+    
+    <div id="wrapper">
+        <h2>Welcome to my IT162 Portal Page!</h2>
+        <main>
+            <h3>Educational background</h3>
+            <img id="right" src="images/headshot.png" alt="Alexandra Ciancimino">
+            <p>Alexandra Ciancimino, a dedicated student at Seattle Central College, is deeply immersed in the field of web design. With a relentless pursuit of excellence, Alexandra has maintained an impeccable 4.0 GPA while pushing the boundaries by maxing out class enrollments. Her commitment to education is evident in her rigorous study habits and her unwavering focus on academic pursuits. She is actively seeking front end web development opportunities to further enhance her practical skills in web design.</p>
+            <h3>Employment history</h3>
+            <figure>
+                <img id="left" src="images/seattle.png" alt="Alexandra Ciancimino">
+                <figcaption>Based in Seattle, WA</figcaption>
+            </figure> 
+            <p>With a wealth of experience spanning over 12 years in the tech industry, she brings a depth of knowledge and expertise to the table. Having worked extensively in marketing, operations, and customer success roles, she has honed her skills in navigating the dynamic landscape of the tech world. In her most recent role as Chief of Staff at Flox, she played a pivotal role in driving strategic initiatives and fostering operational efficiency within the organization. Her keen insights and leadership prowess have earned her recognition as a trusted advisor and invaluable asset to her colleagues. Looking towards the future, she is poised to leverage her diverse skill set and passion for web design to carve out a niche in the industry.</p>
+        </main>
+
+        <aside>
+            <h3>Assignments</h3>
+            <p>Step into the realm of web design excellence with Alexandra as she invites you to take a deeper dive into her assignments for her IT 162 class:</p>
+            <ol>
+                <li><a href="../cave/index2.html">Cave</a></li>
+                <li><a href="../grid/grid2.html">Grid</a></li>
+                <li><a href="../paralax/">Paralax</a></li>
+                <li><a href="../srcset/">Srcset</a></li>
+                <li><a href="../wine4/index.html">Wine</a></li>
+            </ol>
+        </aside>
+
+    </div>
+    <!-- end wrapper -->
+
+    <footer>
+    <ul>
+        <li>Copyright &copy;
+            2024</li>
+        <li>All Rights Reserved</li>
+        <li>Web Design by Alexandra Ciancimino</li>
+        <li><a id="html-checker" href="#">HTML Validation</a></li>
+        <li><a id="css-checker" href="#">CSS Validation</a></li>
+    </ul>
+    <script>
+        document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
+        document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+    </script>
+    </footer>
+
+</body>
+</html>

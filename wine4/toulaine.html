@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toulaine Wine 4</title>
+    <link href="css/normalize.css" type="text/css" rel="stylesheet">
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="http://basehold.it/24"> -->
+</head>
+<body class="inner toulaine">
+
+    <header>
+        <div class="inner-header">
+            <a href="index.html"><img id="logo" src="images/wine-logo.svg" alt="logo"></a>
+
+            <ul class="social">
+                <li><a href=""><img src="images/facebook.svg" alt="facebook"></a></li>
+                <li><a href=""><img src="images/linkedin-1.svg" alt="linkedin"></a></li>
+                <li><a href=""><img src="images/twitter.svg" alt="twitter"></a></li>
+            </ul>
+
+        </div>
+        <!-- end inner header-->
+    </header>
+
+    <div id="navbar">
+    <nav>
+        <ul id="primary">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="">Wines</a>
+            <ul class="dropdown">
+                <li><a href="">Cabernet</a>
+                    <ul class="dropdown2">
+                        <li><a href="toulaine.html">Toulaine</a></li>
+                        <li><a href="mccrea.html">Mccrea Cellars</a></li>
+                        <li><a href="something.html">Something</a></li>
+                    </ul>
+                    </li>
+                <li><a href="">Merlot</a></li>
+                <li><a href="">Syrah</a></li>
+            </ul>
+            </li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+    </div>
+    <!-- end navbar - for scrolling-->      
+
+    <div id="wrapper">
+
+       <h1>Toulaine in Italy</h1>
+
+       <div class="row">
+        <main class="box">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam porro facilis quae accusamus eius. Asperiores, aperiam repellendus sint ducimus mollitia at ipsam. Odio blanditiis fugit consequatur inventore corporis aperiam dolorum!</p>
+            <h2>This is my Headline 2</h2>
+            <img id="left" src="images/legit.jpg" alt="legit logo">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam porro facilis quae accusamus eius. Asperiores, aperiam repellendus sint ducimus mollitia at ipsam. Odio blanditiis fugit consequatur inventore corporis aperiam dolorum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum repellat impedit nesciunt et, a veritatis totam facilis enim corrupti, minus pariatur perferendis quas consequatur praesentium distinctio tempora debitis quod iste!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam porro facilis quae accusamus eius. Asperiores, aperiam repellendus sint ducimus mollitia at ipsam. Odio blanditiis fugit consequatur inventore corporis aperiam dolorum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum repellat impedit nesciunt et, a veritatis totam facilis enim corrupti, minus pariatur perferendis quas consequatur praesentium distinctio tempora debitis quod iste!</p>
+            <h2>Headline 2</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam porro facilis quae accusamus eius. Asperiores, aperiam repellendus sint ducimus mollitia at ipsam. Odio blanditiis fugit consequatur inventore corporis aperiam dolorum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum repellat impedit nesciunt et, a veritatis totam facilis enim corrupti, minus pariatur perferendis quas consequatur praesentium distinctio tempora debitis quod iste!</p>
+            <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ex praesentium, rerum perferendis quis delectus."</blockquote>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam porro facilis quae accusamus eius. Asperiores, aperiam repellendus sint ducimus mollitia at ipsam. Odio blanditiis fugit consequatur inventore corporis aperiam dolorum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum repellat impedit nesciunt et, a veritatis totam facilis enim corrupti, minus pariatur perferendis quas consequatur praesentium distinctio tempora debitis quod iste!</p>
+        </main>
+
+        <aside class="box">
+            <h3>This is my Aside Headline 3</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam porro facilis quae accusamus eius. Asperiores, aperiam repellendus sint ducimus mollitia at ipsam. Odio blanditiis fugit consequatur inventore corporis aperiam dolorum! Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <figure>
+            <img id="right" src="images/image-3ba64ac0-3254-4be9-9381-f4591b2115ca.png" alt="toulaine wine yard">
+            <figcaption>Italy</figcaption>
+            </figure>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam porro facilis quae accusamus eius. Asperiores, aperiam repellendus sint ducimus mollitia at ipsam. Odio blanditiis fugit consequatur inventore corporis aperiam dolorum!</p>
+            <button onclick="window.location.href='mccrea.html'">Next One!</button>
+
+        </aside>
+
+    </div>
+    <!-- end row -->
+
+    </div>
+    <!-- end wrapper-->
+
+    <footer>
+        <ul>
+            <li>Copyright &copy;
+                2024</li>
+            <li>All Rights Reserved</li>
+            <li>Web Design by Alexandra Ciancimino</li>
+            <li><a id="html-checker" href="#">HTML Validation</a></li>
+            <li><a id="css-checker" href="#">CSS Validation</a></li>
+        </ul>
+        <script>
+            document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
+            document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+        </script>
+    </footer>
+
+    <!-- JavaScript from w3 schools for sticky nav-->
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+    </script>
+    
+</body>
+</html>

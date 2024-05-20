@@ -1,0 +1,147 @@
+/* styles for first wine website */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cyan;
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+}
+
+header {
+    background: yellow;
+}
+
+.inner-header {
+    width: 940px;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 250px;
+    padding-top: 1.5em;
+    padding-bottom: .5em;
+}
+
+.social {
+    float: right;
+    margin-top: 2em;
+}
+
+.social li {
+    float: left;
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+nav {
+    background:red;
+    height: 50px;
+    line-height: 50px;
+}
+
+#primary {
+    width: 940px;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+#primary > li {
+    float: left;
+    width: 16.66%;
+    text-align: center;
+    position: relative;
+}
+
+#primary a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+#primary a:hover {
+    background-color: white;
+    color: darkblue;
+}
+
+.dropdown {
+    display: none;
+}
+
+#primary li:hover .dropdown {
+    display: block;
+    position: absolute;
+    background-color: red;
+    width: 100%;
+    list-style-type: none
+}
+
+#wrapper {
+    width: 940px;
+    margin: 0 auto;
+}
+
+#hero {
+    background: pink;
+}
+
+.row {
+    overflow: hidden;
+    margin-bottom: 1.5em;
+}
+
+.third {
+    width: 300px;
+    float: left;
+    height: 300px;
+    background: orange;
+    margin-right: 20px;
+}
+
+.third:last-of-type {
+    margin-right: 0;
+}
+
+footer {
+    border-top: 1px solid lime;
+    height: 60px;
+    line-height: 60px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: .875em;
+}
+
+footer li {
+    margin: 0 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* TYPOGRAPHY */
+
+blockquote {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0 1em  1.5em 1.5em 1.5em;
+    line-height: 1.4;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.home h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-align: center;
+    line-height: 1.15;
+    margin-bottom: .2em;
+}
