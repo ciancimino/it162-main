@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/nav-styles.css" type="text/css" rel="stylesheet">
+    <title>My Nav</title>
+</head>
+<body>
+    <nav>
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="logo">Logo</a>
+
+        <div class="nav-wrapper">
+
+        <div class="dropdown">
+            <button class="dropbtn">Destinations
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Europe</a>
+                <a href="#">Asia</a>
+                <a href="#">Hawaii</a>
+            </div>
+             <!-- end dropdown-content -->
+        </div>
+        <!-- end dropdown -->
+
+        <div class="dropdown">
+            <button class="dropbtn">Cruises
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Small</a>
+                <a href="#">Medium</a>
+                <a href="#">Large</a>
+            </div>
+             <!-- end  dropdown-content -->
+        </div>
+        <!-- end dropdown -->
+
+        <div class="dropdown">
+            <button class="dropbtn">Insurance
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+             <!-- end  dropdown-content -->
+        </div>
+        <!-- end dropdown -->
+
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+
+        </div>
+        <!-- end nav wrapper -->
+
+    </div>
+    <!-- end top nav -->
+    </nav>
+
+    <picture>
+        <source media="(max-width:499px)" srcset="images/buffalo-small.jpg">
+        <source media="(min-width:500px) and (max-width:767px)" srcset="images/buffalo-med.jpg">
+        <source media="(min-width:768px)" srcset="images/buffalo-big.jpg">
+        <img src="images/banner-tint.jpg" alt="Buffalos">
+    </picture>
+
+    <script>
+
+            /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+
+            function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+            }
+
+    </script>
+
+</body>
+</html>
