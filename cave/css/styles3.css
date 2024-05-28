@@ -1,9 +1,4 @@
-/* styles for grid in this order: */ 
-/* general */
-/* typography */
-/* nav */
-/* footer */
-/* index page */
+
 
 
 * {
@@ -13,28 +8,35 @@
 }
 
 body {
-    background-image: url(../images/grid.png);
+    background-image: url(../images/river2.jpg);
     background-repeat: repeat-y;
     background-position: 50% 0;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: .9em;
 }
 
-/* typography */
+/* GENERAL typography */
 
 h1 {
     font-size: 3em;
     font-family: 'Times New Roman', Times, serif;
+    color: #9b021e;
 }
 
 h2 {
     font-size: 1.7em;
     font-family: 'Times New Roman', Times, serif;
+    color: #9b021e;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+    color: #9b021e;
 }
 
 /* nav */
 nav {
-    background-color: #c8d6de;
+    background-color:  rgb(180, 164, 130); 
 }
 
 .sidenav {
@@ -75,7 +77,7 @@ li:hover .dropdown {
 footer {
     height: 60px;
     line-height: 60px;
-    background-color: pink;
+    background-color:  rgb(180, 164, 130); 
     position: fixed;
     width: 100%;
     left: 0;
@@ -159,73 +161,132 @@ header {
     margin-bottom: .7em;
 }
 
-/* about page */
 
-main {
-    float: left;
-    width: 580px;
-    margin-left: 20px;
-    background-color: #17bd35;
+
+
+
+
+
+
+
+
+
+
+/* about page DONE */
+
+.parent-container {
+    display: flex;
+    justify-content: center; /* Align items horizontally */
 }
 
-aside {
-    float: right;
-    width: 340px;
-    margin-right: 20px;
+.about-welcome {
+    width: 61.25em; /* 980px converted to em */
+    text-align: center; 
+    padding-top: 80px;
 }
 
-aside h3 {
-    padding-bottom: 6px;
-    text-align: left;
-    padding-left: 0;
-}
-
-aside p {
-    padding-bottom: 20px;
-    text-align: left;
-    padding-left: 0;
+.about-welcome h1 {
     margin: 0;
 }
 
-.award img {
-    width: 100px;
-    height: 100px;
-    margin: 0px;
+#about-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.about-row {
+    background-color: rgb(212, 199, 170); 
+    display: flex;
+    width: 61.25em;  /* 980 */
+    justify-content: center;
+}
+
+/* main DONE */
+
+main {
+    flex-basis: 580px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+main blockquote {
+    border-left: #9b021e 20px solid;
+    padding-left: 10px ;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: 1.3em;
+}
+
+main h2 {
+    margin-bottom: 10px;
+}
+
+main p {
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+main img {
+    float: left;
+    width: 220px;
+    margin-right: 20px;
+}
+
+
+/* aside DONE */
+
+aside {
+    flex-direction: column;
+    flex-basis: 340px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+aside h3 {
+    margin-bottom: 10px;
+}
+
+aside p {
+    margin-bottom: 20px;
+    padding-left: 0px;
 }
 
 .award-row {
-    overflow: hidden;
-}
-
-.award {
-    margin-right: 20px;
+    display: flex;
     margin-bottom: 20px;
-    float: left;
+    justify-content: space-between;
 }
 
-.award:last-of-type {
-    margin-right: 0px;
+.award-row img {
+    width: 100px;
+    max-width: 100%;
 }
 
-/* about page */
+/* learn more about our wines row DONE */
 
-/* learn more about our wines row */
+.learn-row {
+    background-color: rgb(212, 199, 170); 
+    display: flex;
+    width: 61.25em;  /* 980 */
+    margin-bottom: 80px;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 .forth {
+    text-align: center;
     width: 220px;
 }
 
 .forth img {
-    width: 220px
+    max-width: 100%;
+    margin-bottom: 10px;
 }
 
 .forth p {
-    text-align: center;
-}
-
-.learn-row {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 20px;
+    font-style: italic;
+    font-size: .8em;
+    margin-bottom: 10px;
 }
