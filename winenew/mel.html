@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/normalize.css" type="text/css" rel="stylesheet">
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <title>Document</title>
+    <!-- <link href="http://basehold.it/24" rel="stylesheet"> -->
+
+    <script src="https://kit.fontawesome.com/a436fe4a8a.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+			$(".nav-button").click(function () {
+			$(".nav-button,.primary-nav").toggleClass("open");
+			});    
+		});
+		</script>
+
+</head>
+<body class="subpage">
+
+    <header>
+        <div class="inner-header">
+
+            <a href="index.html"><img id="logo" src="images/wine-logo.svg" alt="logo"></a>
+
+            <ul class="social">
+                <li><a href=""><img src="images/facebook.svg" alt="facebook"></a></li>
+                <li><a href=""><img src="images/linkedin-1.svg" alt="linkedin"></a></li>
+                <li><a href=""><img src="images/twitter.svg" alt="twitter"></a></li>
+            </ul>
+
+        </div>
+        <!-- end inner header-->
+    </header>
+
+
+    <div id="navbar">
+    <nav>
+
+       <!-- small logo here -->
+       <a href="index.html"><img class="logo-mobile" alt="logo" src="images/wine-small-logo-1.png"></a>
+
+       <a href=""><img class="phone" alt="phone" src="images/phone-1.png"></a>
+
+        <button class="nav-button">Toggle Navigation</button>
+
+            <ul class="primary-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="parent"><a href="#">Wines <i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="dropdown"> 
+                        <li><a href="toulaine.html">Toulaine</a></li>
+                        <li><a href="mccrea.html">Mccrea Cellars</a></li>
+                        <li><a href="red.html">Red Horse</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Tours</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+    </nav>
+    </div>
+    <!-- end navbar - for scrolling-->  
+
+    <div id="wrapper">
+
+        <h1>Mel B</h1>
+ 
+        <div class="biorow">
+         <main class="biobox">
+             <img src="/images/melb.jpeg" alt="mel">
+         </main>
+ 
+         <aside class="biobox">
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam porro facilis quae accusamus eius. Asperiores, aperiam repellendus sint ducimus mollitia at ipsam. Odio blanditiis fugit consequatur inventore corporis aperiam dolorum! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam porro facilis quae accusamus eius. Asperiores, aperiam repellendus sint ducimus mollitia at ipsam. Odio blanditiis fugit consequatur inventore corporis aperiam dolorum! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+             </p>
+         </aside>
+ 
+     </div>
+     <!-- end row -->
+
+     <div class="videorow">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/gJLIiF15wjQ?si=eXvmIOwgXx115l_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     </div>
+     <!-- end row -->
+
+        <div class="biobutton">
+
+        <button class="leftwinesbutton" onclick="window.location.href='victoria.html'">Previous!</button>
+
+        </div>
+        <!-- end right-left buttons -->
+ 
+     </div>
+     <!-- end wrapper-->
+
+
+
+
+    <footer>
+
+        <ul class="footersocial">
+            <li><a href=""><img src="images/facebook.svg" alt="facebook"></a></li>
+            <li><a href=""><img src="images/linkedin-1.svg" alt="linkedin"></a></li>
+            <li><a href=""><img src="images/twitter.svg" alt="twitter"></a></li>
+        </ul>
+
+        <ul class="links">
+            <li>Copyright &copy; 2024</li>
+            <li><a href="https://sculptwebstudio.com/it162/portal">Web Design by Alexandra</a></li>
+            <li><a id="html-checker" href="#">HTML</a></li>
+            <li><a id="css-checker" href="#">CSS</a></li>
+        </ul>
+
+        <script>
+            document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
+            document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+        </script>
+
+    </footer>
+
+    <!-- JavaScript from w3 schools for sticky nav-->
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+	

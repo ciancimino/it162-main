@@ -24,17 +24,36 @@ body {
     margin-bottom: 30px;
     clear: both;
     overflow: hidden;
+    background-color: rgba(136, 28, 208, 0.8) ;
 }
+
+/* FIRST SECTION */
+
+.box {
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 580px;
+    background: red;
+    float: left;
+}
+
+aside {
+    width: 340px;
+    background: green;
+    float: right;
+}
+
+/* SECOND SECTION */
 
 .row h1 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.box {
-    height: 200px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+/* THIRD SECTION */
 
 .col {
     width: 148px;
@@ -68,95 +87,71 @@ body {
     margin-right: 0;
 }
 
-.col1 {
-    width: 40px;
-    background: white;
-    float: left;
+
+/* FORTH SECTION */
+
+.rowflex {
+    background-color: rgba(208, 202, 28, 0.8) ;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
 }
 
-main {
-    width: 580px;
-    background: red;
-    float: left;
+.thirds {
+    background-color: aqua;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-aside {
-    width: 340px;
-    background: green;
-    float: right;
+/* FIFTH SECTION */
+
+.rowflexbox {
+    background-color: rgba(208, 202, 28, 0.8) ;
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
 }
 
-
-
-
-
-
-
-/* COMMENT OUT 
-
-
-.col1 {
-    width: 40px;
+.thirdsflexbox {
+    background-color: blue;
+    flex: 1;
 }
 
-.col2 {
-    width: 100px;
+/* SIXTH SECTION */
+
+.rowflexbox2 {
+    background-color: rgba(208, 88, 28, 0.8) ;
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
 }
 
-.col3 {
-    width: 160px;
+.thirdsflexbox2 {
+    background-color: blue;
+    flex: 1;
+    margin-left: 20px;
+    display: flex; /* Add this */
+    flex-direction: column; /* Add this */
+    justify-content: center; /* Add this */
+    align-items: center; /* Add this */
 }
 
-.col4 {
-    width: 220px;
+.thirdsflexbox2:last-of-type {
+    margin-right: 20px;
 }
 
-.col5 {
-    width: 280px;
-}
+/* SEVENTH SECTION */
 
-.col6 {
-    width: 340px;
-}
-
-.col7 {
-    width: 400px;
-}
-
-.col8 {
-    width: 460px;
-}
-
-.col9 {
-    width: 520px;
-}
-
-.col10 {
-    width: 580px;
-}
-
-.col11 {
-    width: 640px;
-}
-
-.col12 {
+.code-box {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 14px;
+    margin: 20px 0;
     width: 700px;
+    margin: auto;
 }
-
-.col13 {
-    width: 760px;
-}
-
-.col14 {
-    width: 820px;
-}
-
-.col15 {
-    width: 880px;
-}
-
-.col16 {
-    width: 940px;
-}
-
-*/ 

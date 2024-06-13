@@ -7,7 +7,7 @@
 }
 
 header {
-    background: white;
+    background: rgb(255, 255, 255);
 }
 
 .inner-header {
@@ -24,8 +24,6 @@ header {
     float: left;
 }
 
-/* NAV */
-
 .social {
     float: right;
     margin-top: 2em;
@@ -36,6 +34,8 @@ header {
     list-style-type: none;
     margin-left: 10px;
 }
+
+/* NAV */
 
 nav {
     background: #41AAE4;
