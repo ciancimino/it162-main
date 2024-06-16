@@ -1,0 +1,253 @@
+/* Color Theme Swatches in Hex */
+.Green-on-Green---Porsche-991-Speedster-1-hex { color: #025E73; }
+.Green-on-Green---Porsche-991-Speedster-2-hex { color: #011F26; }
+.Green-on-Green---Porsche-991-Speedster-3-hex { color: #A5A692; }
+.Green-on-Green---Porsche-991-Speedster-4-hex { color: #BFB78F; }
+.Green-on-Green---Porsche-991-Speedster-5-hex { color: #F2A71B; }
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+html, body {
+    height: 100vh;
+}
+
+header {
+    background-color: #A5A692; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* slide 1  */
+/* /////////////////////////////////////////////////////////////// */
+
+
+
+/* slide 2  */
+/* /////////////////////////////////////////////////////////////// */
+
+main {
+    width: 500px;
+    float: left;
+}
+
+aside {
+    width: 340px;
+    float: right;
+}
+
+/* slide 3  */
+/* /////////////////////////////////////////////////////////////// */
+
+.staff-row {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .staff-row li {
+    flex: 0 0 22%; 
+    margin: 1%;
+    padding: 10px;
+    /* box-sizing: border-box; */
+    text-align: center;
+  }
+
+  .staff-row img {
+    min-width: 180px;
+    min-height: 180px;
+    max-width: 180px;
+    max-height: 180px;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  .staff-row figcaption {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #025E73;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+  .staff-row p {
+    padding-bottom: 0px;
+  }
+
+ a {
+    color: #025E73
+  }
+
+/* slide 4  */
+/* /////////////////////////////////////////////////////////////// */
+
+.fa-brands {
+    color: #F2A71B;
+    font-size: 2em;
+}
+
+#social {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+  }
+
+  #social li {
+    padding-top: 10px;
+    margin-right: 20px;
+  }
+
+
+
+/* typography */
+/* /////////////////////////////////////////////////////////////// */
+
+h1 {
+    text-align: center;
+}
+
+blockquote {
+    text-align: center;
+    font-size: 1.8em;
+    font-style: italic;
+    color: #025E73;
+    padding-top: 10px;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1, h2 {
+    color: #063f4b;
+}
+
+h3 {
+    color: #025E73;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 1.8;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: .5em;
+}
+
+h3 {
+    font-size: 1.1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: .5em;
+}
+
+p {
+    line-height: 1.2em;
+    padding-bottom: 2em;
+}
+
+a {
+    color: #025E73
+  }
+
+
+    /* background */
+    /* /////////////////////////////////////////////////////////////// */
+
+    .slides {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+    .slide1 {
+        background-image: url(../images/img1.jpg);
+        min-height: 100vh;
+        position: relative;
+    }
+
+    .slide2 {
+        background-image: url(../images/img2.jpg);
+        min-height: 70vh;
+        
+    }
+
+    .slide3 {
+        background-image: url(../images/img3.jpg);
+        min-height: 100vh;
+        
+    }
+
+    .slide4 {
+        background-image: url(../images/img4.jpg);
+        min-height: 100vh;
+   
+    }
+
+    .row-special {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #A5A692; 
+        padding: 20px 0;
+    }
+
+    .row {
+        background-color: #A5A692; 
+        padding: 20px 0;
+        overflow: hidden;
+    }
+
+    /* footer */
+       /* /////////////////////////////////////////////////////////////// */
+
+    footer {
+        background-color: #A5A692; 
+        padding-left: 100px;
+    }
+        
+        footer li {
+        list-style: none;
+        }
+        
+        footer a {
+        text-decoration: none;
+        }
+        
+        footer a:hover {
+        text-decoration: underline;
+        }
+
+        footer .links {
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+            }
+            
+            footer li {
+            margin: 20px;
+            }
