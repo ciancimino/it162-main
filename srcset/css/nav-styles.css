@@ -28,7 +28,7 @@ text-align: center;
 }
 
 .paris-footer {
-  background: url(/srcset/images/paris2.jpg);
+  background: url(../images/paris2.jpg);
   background-size: cover;
   height: 100vh; 
   width: 100%;
@@ -73,11 +73,16 @@ text-align: center;
   margin: 25px 20px 0 20px;
 }
 
+.bookit {
+  text-transform: uppercase;
+  background-color:  rgb(61, 127, 219);
+}
+
 
 @media screen and (min-width: 768px) {
 
 .circle {
-  background-color: #02600d;
+  background-color:  rgb(61, 127, 219);
   border-radius: 50%;
   flex: 1 1 100px;
   max-width: 240px;
@@ -90,18 +95,18 @@ text-align: center;
   align-items: center;
 }
 
-.message {
+.message1, .message2, .message3 {
   text-align: center;
   padding-top: 40px;
   line-height: 30px;
 }
 
-.message a {
+.message1 a, .message2 a, .message3 a  {
   color: white;
   text-decoration: none;
 }
 
-.message a:hover {
+.message1 a:hover, .message2 a:hover, .message3 a:hover {
   text-decoration: underline;
 }
 
@@ -112,19 +117,49 @@ text-align: center;
   .third-promo {
     display: flex;
     width: 100%;
-    flex-wrap: wrap;
     justify-content: center;
-    height: 80px;
     text-align: center;
+    height: auto;
+    margin-bottom: 30px;
   }
-
-  .message a {
-    color: rgb(125, 211, 193);
+  .message1 a, .message2 a, .message3 a {
+    color: rgb(2, 35, 28);
     text-decoration: none;
   }
   
-  .message a:hover {
+  .message1 a:hover, .message2 a:hover, .message3 a:hover {
     text-decoration: underline;
+  }
+
+  .circle {
+    background-color:  rgb(61, 127, 219);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .message1, .message2, .message3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #bdb4f2;
+    padding-top: 20px;
+  }
+
+ .message2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ddd;
+    padding-top: 20px;
+  }
+
+   .message3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #efc2c2;
+    padding-top: 20px;
   }
   
   /* .circle {
@@ -150,7 +185,7 @@ text-align: center;
 }
 
 .thirds h3 {
-  color: rgb(170, 48, 4)
+  color: rgb(189, 96, 62)
 }
 
 .wrapper {
@@ -189,7 +224,7 @@ font-size: 17px;
 }
 
 .topnav > a:first-of-type {
-color: aqua;
+color:  rgb(61, 127, 219);
 padding: 10px 16px;
 }
 
@@ -326,37 +361,37 @@ display: block;
 @media screen and (min-width: 769px) {
 
 .big-row .row:nth-child(1) .thirds:nth-child(1) {
-  background-image: url(/srcset/images/im1.jpg);
+  background-image: url(../images/im1.jpg);
   background-size: cover;
   height: 40vh;
 }
 
 .big-row .row:nth-child(1) .thirds:nth-child(3) {
-  background-image: url(/srcset/images/im3.jpg);
+  background-image: url(../images/im3.jpg);
   background-size: cover;
   height: 40vh;
 }
 
 .big-row .row:nth-child(2) .thirds:nth-child(2) {
-  background-image: url(/srcset/images/im5.jpg);
+  background-image: url(../images/im5.jpg);
   background-size: cover;
   height: 40vh;
 }
 
 .big-row .row:nth-child(3) .thirds:nth-child(1) {
-  background-image: url(/srcset/images/im7.jpg);
+  background-image: url(../images/im7.jpg);
   background-size: cover;
   height: 40vh;
 }
 
 .big-row .row:nth-child(3) .thirds:nth-child(3) {
-  background-image: url(/srcset/images/im9.jpg);
+  background-image: url(../images/im9.jpg);
   background-size: cover;
   height: 40vh;
 }
 
 .big-row .row:nth-child(4) .thirds:nth-child(2) {
-  background-image: url(/srcset/images/im11.jpg);
+  background-image: url(../images/im11.jpg);
   background-size: cover;
   height: 40vh;
 }
@@ -457,7 +492,11 @@ display: block;
 }
 
 .rows-background {
-  background-color: #ddd;
+  background-color: #cdc8ee;
+}
+
+.rows-promo-background {
+  background-color: rgb(158, 155, 200);
 }
 
 }
@@ -514,9 +553,9 @@ blockquote {
 }
 
 .title {
-
+padding-top: 30px;
   font-size: 2.3em;
-margin-bottom: 10px;
+margin-bottom: 30px;
 }
 
 h3 {
@@ -544,14 +583,15 @@ h3 {
 
 .read-more {
   padding: 5px;
-  color: #333;
-  background-color: rgb(34, 209, 95);
+  color: #fffdfd;
+  background-color:  rgb(61, 127, 219);
   text-decoration: none;
 }
 
 a.read-more:hover {
-  background-color: #02600d;
-  color: white;
+  background-color: #fffdfd;
+  color:  rgb(61, 127, 219);
+  border: 2px solid rgb(61, 127, 219);
 }
 
 
